@@ -1,0 +1,103 @@
+@import url(header.css);
+@import url(presentacion.css);
+@import url(cursos.css);
+@import url(footer.css);
+@import url(404.css);
+@import url(contacto.css);
+
+:root {
+    --color-principal: #2563EB;
+    --color-secundario: #0F172A;
+    --color-acento: #14B8A6;
+    --color-fondo: #F8FAFC;
+    --color-superficie: #FFFFFF;
+    --color-texto: #334155;
+    --color-blanco: #FFFFFF;
+    --tipografia-titulo: "Raleway", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .presentacion{
+        flex-direction: column;
+        gap:30px 
+    }
+
+    .presentacion article{
+        width: 80%;
+    }
+
+    .presentacion img{
+        width: 60%;
+    }
+
+    .cursos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cursos article:nth-child(1), .cursos article:nth-child(6){
+        grid-column: span 2;
+    }
+
+    .sobre-mi{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-mi article{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 480px){
+    header{
+        padding: 15px;
+    }
+    .header--nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .presentacion article{
+        width: 100%;
+
+    }
+
+    .presentacion img{
+        width: 90%;
+    }
+
+    .presentacion h1{
+        font-size: 28px;
+    }
+
+    .cursos{
+        grid-template-columns: 1fr;
+    }
+
+     .cursos article:nth-child(1), .cursos article:nth-child(6){
+        grid-column: span 1;
+    }
+
+    .sobre-mi img{
+        width: 200px;
+        height: 200px;
+    }
+}

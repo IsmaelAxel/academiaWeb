@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--color-secundario);
+    margin-bottom: 20px;
+}
+
+header h2{
+    color: var(--color-blanco);
+}
+
+.header--nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header--nav a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header--nav a:hover{
+    color: var(--color-acento);
+    text-decoration: underline;
+}

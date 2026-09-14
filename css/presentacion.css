@@ -1,0 +1,52 @@
+.presentacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.presentacion h1{
+    font-family: var(--tipografia-titulo);
+}
+
+.presentacion h1::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: var(--color-principal);
+    margin: 10px auto;
+
+}
+
+.presentacion p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.presentacion article {
+    width: 50%;
+    text-align: center;
+}
+
+.presentacion img {
+    width: 30%;
+}
+
+.presentacion a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--color-acento);
+    color: var(--color-blanco);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.presentacion a:hover{
+    background-color: var(--color-principal);
+}
+
+.presentacion a:active{
+ background-color: var(--color-principal);   
+}
