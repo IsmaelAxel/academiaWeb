@@ -5,6 +5,8 @@
     padding: 20px;
 }
 
+
+
 .cursos h3::before{
     content: "📚";
 }
@@ -38,6 +40,11 @@
     height: 100px;
     object-fit: cover;
 }
+.cursos article a{
+    text-decoration: none;
+    color: var(--color-blanco);
+}
+
 .cursos article:nth-child(3), .cursos article:nth-child(4){
     background-color: var(--color-secundario);
     color: var(--color-blanco);
