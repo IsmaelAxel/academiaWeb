@@ -1,10 +1,8 @@
-# Academia Web — Login y Registro
+# Academia Web 
 
 ## Descripción
 
-Este proyecto amplía **Academia Web** con dos páginas de acceso: un formulario de inicio de sesión y otro de registro de usuarios.
-
-Se creó para ofrecer una interfaz coherente con el sitio principal y practicar la construcción de formularios web, el uso de HTML semántico y el diseño responsivo.
+Academia Web nació como una página educativa, en donde se pone en practica todas las herramientas aprendidas durante el primer modulo de la comisión WEB2BA 
 
 ## Tecnologías utilizadas
 
@@ -13,27 +11,6 @@ Se creó para ofrecer una interfaz coherente con el sitio principal y practicar 
 - **Flexbox:** organiza los elementos principales y permite que el footer quede al final de la página cuando el contenido no ocupa toda la pantalla.
 - **Media queries:** adaptan la interfaz a distintos tamaños de pantalla, como celulares, tablets y computadoras.
 - **Google Fonts:** se utilizan las tipografías Raleway y Rubik para mantener la identidad visual de Academia Web.
-
-## Estructura de archivos
-
-```text
-AcademiaWeb/
-├── login.html
-├── login.css
-├── registro.html
-├── registro.css
-└── README.md
-```
-
-## Páginas incluidas
-
-### Inicio de sesión (`login.html`)
-
-Contiene campos para correo electrónico y contraseña. Incluye validaciones HTML básicas y un enlace para ir al formulario de registro.
-
-### Registro (`registro.html`)
-
-Contiene campos para nombre completo, correo electrónico, contraseña y confirmación de contraseña, además de una casilla para aceptar los términos y condiciones. Incluye validaciones HTML básicas y un enlace para volver al inicio de sesión.
 
 ## Validaciones
 
