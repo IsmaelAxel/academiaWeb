@@ -1,0 +1,104 @@
+.acceso {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 20px;
+}
+
+.formulario {
+  width: min(100%, 480px);
+  padding: 32px 35px;
+  background-color: var(--color-superficie);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 10%);
+}
+
+.formulario h1 {
+  margin-bottom: 10px;
+  color: var(--color-secundario);
+  font-family: var(--tipografia-titulo);
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.descripcion {
+  margin-bottom: 24px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 17px;
+}
+
+.campo label {
+  color: var(--color-secundario);
+  font-weight: 600;
+}
+
+.campo input {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #CBD5E1;
+  border-radius: 6px;
+  font: inherit;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campo input:focus {
+  border-color: var(--color-principal);
+  box-shadow: 0 0 0 3px rgb(37 99 235 / 15%);
+}
+
+.aceptacion {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin: 5px 0 20px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.aceptacion input {
+  margin-top: 3px;
+  accent-color: var(--color-principal);
+}
+
+form button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--color-principal);
+  color: var(--color-blanco);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+  background-color: var(--color-acento);
+  transform: translateY(-2px);
+}
+
+.alternativa {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.alternativa a {
+  color: var(--color-principal);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.alternativa a:hover {
+  color: var(--color-acento);
+  text-decoration: underline;
+}

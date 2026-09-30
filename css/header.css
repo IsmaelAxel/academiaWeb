@@ -10,6 +10,11 @@ header h2{
     color: var(--color-blanco);
 }
 
+header a { 
+    text-decoration: none;
+    color: var(--color-blanco);
+}
+
 .header--nav ul {
     display: flex;
     gap: 20px;
